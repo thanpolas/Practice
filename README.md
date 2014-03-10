@@ -2,4 +2,4 @@
 
 A collection of followed best practices.
 
-* [Github Flow](/Git-flow.md)
+* [Github Flow](https://github.com/thanpolas/Practice/blob/master/Git-Flow.md)
