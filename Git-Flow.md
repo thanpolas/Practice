@@ -36,8 +36,8 @@ git rebase --continue
 
 ## More Reading
 
-[Github Flow][]
-[Rolling back changes with revert](http://gitready.com/intermediate/2009/03/16/rolling-back-changes-with-revert.html)
-[Gitmagic Git Complete Reference](http://www-cs-students.stanford.edu/~blynn/gitmagic/)
+* [Github Flow][]
+* [Rolling back changes with revert](http://gitready.com/intermediate/2009/03/16/rolling-back-changes-with-revert.html)
+* [Gitmagic Git Complete Reference](http://www-cs-students.stanford.edu/~blynn/gitmagic/)
 
 [Github Flow]: http://scottchacon.com/2011/08/31/github-flow.html
