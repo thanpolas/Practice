@@ -39,7 +39,7 @@ git rebase --continue
 
 ## Working with hub
 
-Install Github's command line utility [`hub`][]:
+Install Github's command line utility [`hub`][hub]:
 
 #### On OSX:
 
