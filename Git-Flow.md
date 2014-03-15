@@ -69,8 +69,6 @@ To attach a PR to an existing issue use the following command:
 $ hub pull-request -b USERNAME_OF_UPSTREAM_OWNER:UPSTREAM_BRANCH -h YOUR_USERNAME:YOUR_BRANCH URL_TO_ISSUE
 ```
 
-hub pull-request -b thanpolas:master -h thanpolas:csrf https://github.com/thanpolas/check-connectivity/issues/9
-
 #### When you work on the same repository
 
 ```shell
