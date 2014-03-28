@@ -15,6 +15,6 @@ Whatever you do, do not walk out of this page without first installing a Live Li
 ### Sublime Editor
 
 1. Install the [Package Control](https://sublime.wbond.net/installation)
-1. Open the command pane (`Shitf` + `Cmd` + `P`) and choose "Package Control: Install Package"
+1. Open the command pane (`Shift` + `Cmd` + `P`) and choose "Package Control: Install Package"
 1. Install **SublimeLinter** package
 1. Install **EditorConfig** package
