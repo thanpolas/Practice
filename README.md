@@ -4,9 +4,9 @@ A collection of best practices.
 
 * [Github Flow](https://github.com/thanpolas/Practice/blob/master/Git-Flow.md)
 * [Markdown Cheatsheet](https://github.com/thanpolas/Practice/blob/master/Markdown-Cheatsheet.md)
-* [Javascript Styleguide](https://github.com/thanpolas/javascript#javascript-style-guide-\)
-* [Code Maintainability](https://github.com/thanpolas/javascript/blob/master/maintainability.md)
-* [Default `.jshintrc` file](https://github.com/thanpolas/javascript/blob/master/maintainability.md)
+* [Javascript Styleguide](https://github.com/thanpolas/javascript#javascript-style-guide-) (different repo)
+* [Code Maintainability](https://github.com/thanpolas/javascript/blob/master/maintainability.md) (different repo)
+* [Default `.jshintrc` file](https://github.com/thanpolas/javascript/blob/master/maintainability.md) (different repo)
 
 ## TL;DR Install Live Linter and Editor Config
 
