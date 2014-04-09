@@ -8,3 +8,9 @@
 ```
 =counta(filter(A:A, A:A = A6))
 ```
+
+#### Capitalize First Letter
+
+```
+=proper(A1)
+```
