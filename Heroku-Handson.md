@@ -21,11 +21,62 @@ Due to the architecture or Heroku's Dynos the port number that the requests will
 var port = Number(process.env.PORT || 5000);
 ```
 
-### Create your application
+### Create your Heroku application
 
 * Through the heroku manage panel (preferred)
 * From the command line: `heroku create`
 
+#### The Success modal
+
 ![The success view](http://than.pol.as/Vtph/Screen%20Shot%202014-06-04%20at%202.47.26%20PM.png)
+
+#### Get the git repository
+
+In our case `git@heroku.com:stub-test.git`, then:
+
+Add it as a remote to your current project:
+
+```shell
+git remote add heroku git@heroku.com:stub-test.git
+```
+
+#### Setup Heroku boot
+
+In order for Heroku to know how it should boot up your application you need to create the `Procfile` at your project's root folder, here is a sample `Procfile`:
+
+```
+web: node .
+```
+
+#### First Deployment
+
+...and every other deployment happens like that:
+
+```shell
+git push heroku master
+```
+
+#### Power up your application
+
+This is required to kickstart your Heroku application, use only once.
+
+```shell
+heroku ps:scale web=1
+```
+
+## Tips & Tricks
+
+### View logs
+
+```shell
+heroku logs --tail
+```
+
+### Setup Environment Variables
+
+```shell
+heroku config:set NODE_ENV=heroku_staging
+```
+
 
 

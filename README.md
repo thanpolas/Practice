@@ -7,6 +7,8 @@ A collection of best practices and cheat sheets.
 * [Javascript Styleguide](https://github.com/thanpolas/javascript#javascript-style-guide-) (different repo)
 * [Code Maintainability](https://github.com/thanpolas/javascript/blob/master/maintainability.md) (different repo)
 * [Default `.jshintrc` file](https://github.com/thanpolas/javascript/blob/master/maintainability.md) (different repo)
+* [Heroku Node.js Hands On](https://github.com/thanpolas/Practice/blob/master/Heroku-Handson.md)
+
 
 ## TL;DR Install Live Linter and Editor Config
 
