@@ -78,5 +78,9 @@ heroku logs --tail
 heroku config:set NODE_ENV=heroku_staging
 ```
 
+### Export Sensitive Data to Heroku
+
+Check out [this Gist](https://gist.github.com/thanpolas/5bcb42e0ae1f34e6dc56) on how to export sensitive data (passwords, keys, tokens) to Heroku without having them tracked in your repository.
+
 
 
