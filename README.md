@@ -1,6 +1,6 @@
 # Practice
 
-A collection of best practices.
+A collection of best practices and cheat sheets.
 
 * [Github Flow](https://github.com/thanpolas/Practice/blob/master/Git-Flow.md)
 * [Markdown Cheatsheet](https://github.com/thanpolas/Practice/blob/master/Markdown-Cheatsheet.md)
