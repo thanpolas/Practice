@@ -5,7 +5,7 @@ A collection of best practices and cheat sheets.
 * [Github Flow](https://github.com/thanpolas/Practice/blob/master/Git-Flow.md)
 * [Markdown Cheatsheet](https://github.com/thanpolas/Practice/blob/master/Markdown-Cheatsheet.md)
 * [Javascript Styleguide](https://github.com/thanpolas/javascript#javascript-style-guide-) (different repo)
-* [Code Maintainability](https://github.com/thanpolas/javascript/blob/master/maintainability.md) (different repo)
+* [Node.js](https://github.com/thanpolas/Practice/blob/master/Node.js.md)
 * [Default `.jshintrc` file](https://github.com/thanpolas/javascript/blob/master/maintainability.md) (different repo)
 * [Heroku Node.js Hands On](https://github.com/thanpolas/Practice/blob/master/Heroku-Handson.md)
 
