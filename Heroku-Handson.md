@@ -83,4 +83,31 @@ heroku config:set NODE_ENV=heroku_staging
 Check out [this Gist](https://gist.github.com/thanpolas/5bcb42e0ae1f34e6dc56) on how to export sensitive data (passwords, keys, tokens) to Heroku without having them tracked in your repository.
 
 
+## Installing system-wide custom libraries
 
+If you want to install a system-wide custom library on the heroku platform you are pretty much screwed. But feat not, there is a way out. Heroku uses *Buildpacks* to setup your environment based on the language of your codebase. You can find all the [Heroku Buildpacks at their github organization](https://github.com/heroku/), they are opensource.
+
+With the help of the community, we are now able to mixin multiple buildpacks, this awesome feature is enabled by using the [heroku-buildpack-multi Buildpack](https://github.com/ddollar/heroku-buildpack-multi) by [ddollar](https://github.com/ddollar). The process is simple, just declare once to Heroku that you wish to use the multi buildpack:
+
+```
+$ heroku config:add BUILDPACK_URL=https://github.com/ddollar/heroku-buildpack-multi.git
+```
+
+From then on, you need to define all the multiple buildpacks in the `.buildpacks` file:
+
+```
+$ cat .buildpacks
+https://github.com/heroku/heroku-buildpack-nodejs.git#0198c71daa8
+https://github.com/heroku/heroku-buildpack-ruby.git#v86
+```
+
+That way you can then search for your system-wide buildpack and include it in your `.buildpacks` file. For e.g. if you need the *Ffmpeg* library installed, search for a relevant buildpack on the web (or even better github) and just include it along with your system's offical Heroku buildpack:
+
+```
+$ cat .buildpacks
+https://github.com/HYPERHYPER/heroku-buildpack-ffmpeg.git
+https://github.com/heroku/heroku-buildpack-nodejs.git
+
+```
+
+Cha ching!
