@@ -85,7 +85,7 @@ Check out [this Gist](https://gist.github.com/thanpolas/5bcb42e0ae1f34e6dc56) on
 
 ## Installing system-wide custom libraries
 
-If you want to install a system-wide custom library on the heroku platform you are pretty much screwed. But feat not, there is a way out. Heroku uses *Buildpacks* to setup your environment based on the language of your codebase. You can find all the [Heroku Buildpacks at their github organization](https://github.com/heroku/), they are opensource.
+If you want to install a system-wide custom library on the heroku platform you are pretty much screwed. But fear not, there is a way out. Heroku uses *Buildpacks* to setup your environment based on the language of your codebase. You can find all the [Heroku Buildpacks at their github organization](https://github.com/heroku/), they are opensource.
 
 With the help of the community, we are now able to mixin multiple buildpacks, this awesome feature is enabled by using the [heroku-buildpack-multi Buildpack](https://github.com/ddollar/heroku-buildpack-multi) by [ddollar](https://github.com/ddollar). The process is simple, just declare once to Heroku that you wish to use the multi buildpack:
 
