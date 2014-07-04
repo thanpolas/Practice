@@ -9,7 +9,6 @@ A collection of best practices and cheat sheets.
 * [Default `.jshintrc` file](https://github.com/thanpolas/javascript/blob/master/maintainability.md) (different repo)
 * [Heroku Node.js Hands On](https://github.com/thanpolas/Practice/blob/master/Heroku-Handson.md)
 
-
 ## TL;DR Install Live Linter and Editor Config
 
 Whatever you do, do not walk out of this page without first installing a Live Linter and Editorconfig on your editor!!!
