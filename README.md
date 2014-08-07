@@ -4,9 +4,9 @@ A collection of best practices and cheat sheets.
 
 * [Github Flow](https://github.com/thanpolas/Practice/blob/master/Git-Flow.md)
 * [Markdown Cheatsheet](https://github.com/thanpolas/Practice/blob/master/Markdown-Cheatsheet.md)
-* [Javascript Styleguide](https://github.com/thanpolas/javascript#javascript-style-guide-) (different repo)
+* [Javascript Style Guide](https://github.com/thanpolas/Practice/blob/master/Javascript-Style-Guide.md)
 * [Node.js](https://github.com/thanpolas/Practice/blob/master/Node.js.md)
-* [Default `.jshintrc` file](https://github.com/thanpolas/javascript/blob/master/maintainability.md) (different repo)
+    * [Default `.jshintrc` file](https://github.com/thanpolas/practice/blob/master/.jshintrc)
 * [Heroku Node.js Hands On](https://github.com/thanpolas/Practice/blob/master/Heroku-Handson.md)
 
 ## TL;DR Install Live Linter and Editor Config
