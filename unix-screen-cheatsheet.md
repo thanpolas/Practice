@@ -2,6 +2,8 @@
 
 ## Basic commands
 
+| Task | Command|
+| --- |:---|
 | Start a new screen session with session name  | screen -S <name> |
 | List running sessions/screens  | screen -ls |
 | attach to a running session | screen -x |
