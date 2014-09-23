@@ -2,12 +2,15 @@
 
 A collection of best practices and cheat sheets.
 
-* [Github Flow](https://github.com/thanpolas/Practice/blob/master/Git-Flow.md)
-* [Markdown Cheatsheet](https://github.com/thanpolas/Practice/blob/master/Markdown-Cheatsheet.md)
-* [Javascript Style Guide](https://github.com/thanpolas/Practice/blob/master/Javascript-Style-Guide.md)
-* [Node.js](https://github.com/thanpolas/Practice/blob/master/Node.js.md)
-    * [Default `.jshintrc` file](https://github.com/thanpolas/practice/blob/master/.jshintrc)
-* [Heroku Node.js Hands On](https://github.com/thanpolas/Practice/blob/master/Heroku-Handson.md)
+* [Github Flow](Git-Flow.md)
+* [Advanced Git Cheatsheet](Advanced-Git-Cheatsheet.md)
+* [Markdown Cheatsheet](Markdown-Cheatsheet.md)
+* [Javascript Style Guide](Javascript-Style-Guide.md)
+* [Node.js](Node.js.md)
+    * [Default `.jshintrc` file](.jshintrc)
+* [Heroku Node.js Hands On](Heroku-Handson.md)
+* [Google Speadsheets](Google-Spreadsheets.md)
+* [Unix Screen Cheatsheet](unix-screen-cheatsheet.md)
 
 ## TL;DR Install Live Linter and Editor Config
 
