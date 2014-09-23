@@ -51,6 +51,16 @@ git filter-branch -f --tree-filter 'rm -rf folder/path' HEAD
 
 [source blog post](http://dalibornasevic.com/posts/2-permanently-remove-files-and-folders-from-a-git-repository), [Stack Overflow](http://stackoverflow.com/questions/10067848/remove-folder-and-its-contents-from-git-githubs-history), [git-scm](http://git-scm.com/book/en/Git-Internals-Maintenance-and-Data-Recovery)
 
+### Compact Git Repo
+
+After a `git filter-branch` you run the `git compact` command to remove empty directories from history.
+
+```shell
+git gc --aggressive --prune=now
+```
+
+Source: [SO Question](http://stackoverflow.com/questions/2116778/reduce-git-repository-size).
+
 ## Move a folder to another repository with history
 
 ### From Source Repository
