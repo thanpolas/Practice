@@ -13,3 +13,9 @@
 ```
 =proper(A1)
 ```
+
+#### Get Data from another Spreadsheet
+
+```
+=IMPORTRANGE("abcd123abcd123", "sheet1!A1:C10")
+```
