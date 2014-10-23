@@ -11,6 +11,7 @@ A collection of best practices and cheat sheets.
 * [Heroku Node.js Hands On](Heroku-Handson.md)
 * [Google Speadsheets](Google-Spreadsheets.md)
 * [Unix Screen Cheatsheet](unix-screen-cheatsheet.md)
+* [How to Setup stress-free SSL on OSX Dev Machine](https://gist.github.com/jed/6147872)
 
 ## TL;DR Install Live Linter and Editor Config
 
