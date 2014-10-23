@@ -12,6 +12,7 @@ A collection of best practices and cheat sheets.
 * [Google Speadsheets](Google-Spreadsheets.md)
 * [Unix Screen Cheatsheet](unix-screen-cheatsheet.md)
 * [How to Setup stress-free SSL on OSX Dev Machine](https://gist.github.com/jed/6147872)
+    * [A fixed for OSX Yosemite `dnsmasq.plist` file](dnsmasq.plist)
 
 ## TL;DR Install Live Linter and Editor Config
 
