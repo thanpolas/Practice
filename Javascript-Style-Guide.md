@@ -538,6 +538,7 @@ Forked from [AirBnB's Javascript repo](https://github.com/airbnb/javascript).
 ## <a name='conditionals'>Conditional Expressions & Equality</a>
 
   - Use `===` and `!==` over `==` and `!=`.
+        - See [this illustrative table for reasoning](https://dorey.github.io/JavaScript-Equality-Table/).
   - Always use the testing part first and the expected value second:
 
     '''javascript
