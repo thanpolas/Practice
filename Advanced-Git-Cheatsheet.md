@@ -88,5 +88,18 @@ git remote rm repo-A-branch
 
 [source blog post](http://gbayer.com/development/moving-files-from-one-git-repository-to-another-preserving-history/)
 
+## Alternative and FASTER way to copy dir from repo to repo with history
+
+```shell
+mkdir /tmp/mergepatchs
+cd ~/repo/org
+export reposrc=myfile.c #or mydir
+git format-patch -o /tmp/mergepatchs $(git log $reposrc|grep ^commit|tail -1|awk '{print $2}')^..HEAD $reposrc
+cd ~/repo/dest
+git am /tmp/mergepatchs/*.patch
+```
+[source](http://blog.neutrino.es/2012/git-copy-a-file-or-directory-from-another-repository-preserving-history/)
+
+
 [Github Flow]: http://scottchacon.com/2011/08/31/github-flow.html
 [hub]: http://hub.github.com/
