@@ -107,7 +107,16 @@ That way you can then search for your system-wide buildpack and include it in yo
 $ cat .buildpacks
 https://github.com/HYPERHYPER/heroku-buildpack-ffmpeg.git
 https://github.com/heroku/heroku-buildpack-nodejs.git
-
 ```
 
 Cha ching!
+
+### Grunt build with Compass on Heroku
+
+The buildpack you need is [heroku-buildpack-nodejs-grunt-compass]( https://github.com/stephanmelzer/heroku-buildpack-nodejs-grunt-compass) by stephanmelzer.
+
+Buildpack git repo url:
+
+```
+https://github.com/stephanmelzer/heroku-buildpack-nodejs-grunt-compass.git
+```
