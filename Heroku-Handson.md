@@ -64,6 +64,20 @@ This is required to kickstart your Heroku application, use only once.
 heroku ps:scale web=1
 ```
 
+## Installing Addons
+
+### Redis To Go
+
+```shell
+heroku addons:add redistogo
+```
+
+### MongoLabs
+
+```shell
+heroku addons:add mongolab
+```
+
 ## Tips & Tricks
 
 ### View logs
