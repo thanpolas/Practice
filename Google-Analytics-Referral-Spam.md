@@ -28,10 +28,10 @@ The "Filter Pattern" accepts up to 255 characters so we have to break out the fi
 
 This pattern was suggested by [Brian Clifton in this blog post](https://brianclifton.com/blog/2015/05/29/removing-referral-spam/).
 
-> offer|free\-|share\-|mercedes|buy|cheap|semalt|googlsucks|benz|sl500|hulfington|buttons|
+> offer|free\\-|share\\-|mercedes|buy|cheap|semalt|googlsucks|benz|sl500|hulfington|buttons|
 darodar|pistonheads|motor|money|blackhat|backlink|webrank|seo|phd|
-crawler|anonymous|\d{3}.*forum|porn|webmaster|flipboard|fl\.ru|
-mbca|ahrefs|game|\.io|^sex|^video
+crawler|anonymous|\\d{3}.*forum|porn|webmaster|flipboard|fl\\.ru|
+mbca|ahrefs|game|\\.io|^sex|^video
 
 
 ## More Reading
