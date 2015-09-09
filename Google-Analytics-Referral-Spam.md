@@ -14,15 +14,15 @@ The "Filter Pattern" accepts up to 255 characters so we have to break out the fi
 
 #### Referral Spam 1
 
-> trafficmonetizer\.org|success-seo\.com|webmonetizer\.net|4webmasters\.org|dailyrank\.net|floating-share-buttons\.com|social-buttons\.com|simple-share-buttons\.com|free-share-buttons\.com|free-social-buttons\.com|traffic2money\.com|buttons-for-website\.com
+> trafficmonetizer\\.org|success-seo\\.com|webmonetizer\\.net|4webmasters\\.org|dailyrank\\.net|floating-share-buttons\\.com|social-buttons\\.com|simple-share-buttons\\.com|free-share-buttons\\.com|free-social-buttons\\.com|traffic2money\\.com|buttons-for-website\\.com
 
 #### Referral Spam 2
 
-> seo-platform\.com|sexyali\.com|get-free-social-traffic\.com|qualitymarketzone\.com|site4\.free-floating-buttons\.com|bundlepost\.com|site7\.free-floating-buttons\.com|site8\.free-floating-buttons\.com|chinese-amezon\.com|site1\.free-floating-buttons\.com
+> seo-platform\\.com|sexyali\\.com|get-free-social-traffic\\.com|qualitymarketzone\\.com|site4\\.free-floating-buttons\\.com|bundlepost\\.com|site7\\.free-floating-buttons\\.com|site8\\.free-floating-buttons\\.com|chinese-amezon\\.com|site1\\.free-floating-buttons\\.com
 
 #### Referral Spam 3
 
-> www\.event-tracking\.com|www\.Get-Free-Traffic-Now\.com|site2\.free-floating-buttons\.com|videos-for-your-business\.com
+> www\\.event-tracking\\.com|www\\.Get-Free-Traffic-Now\\.com|site2\\.free-floating-buttons\\.com|videos-for-your-business\\.com
 
 #### Referral Spam Catchall
 
