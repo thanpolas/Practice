@@ -31,7 +31,7 @@ This pattern was suggested by [Brian Clifton in this blog post](https://briancli
 > offer|free\\-|share\\-|mercedes|buy|cheap|semalt|googlsucks|benz|sl500|hulfington|buttons|
 darodar|pistonheads|motor|money|blackhat|backlink|webrank|seo|phd|
 crawler|anonymous|\\d{3}.*forum|porn|webmaster|flipboard|fl\\.ru|
-mbca|ahrefs|game|\\.io|^sex|^video
+mbca|ahrefs|game|^sex|^video
 
 
 ## More Reading
