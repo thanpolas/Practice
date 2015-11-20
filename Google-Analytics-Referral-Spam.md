@@ -22,7 +22,7 @@ The "Filter Pattern" accepts up to 255 characters so we have to break out the fi
 
 #### Referral Spam 3
 
-> www\\.event-tracking\\.com|www\\.Get-Free-Traffic-Now\\.com|site2\\.free-floating-buttons\\.com|videos-for-your-business\\.com
+> www\\.event-tracking\\.com|www\\.Get-Free-Traffic-Now\\.com|site2\\.free-floating-buttons\\.com|videos-for-your-business\\.com|ranksonic\\.net|rankings-analytics\\.com|.*\\.copyrightclaims\\.org
 
 #### Referral Spam Catchall
 
