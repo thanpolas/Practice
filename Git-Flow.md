@@ -22,19 +22,18 @@ Following the [Github Flow][] paradigm, in short:
 
 ## Keeping up with master
 
-To keep up with the master or your target branch use `rebase`:
+To keep up with the master of the original repo use `fetch`:
 
 ```
-git rebase upstream/master
+git fetch upstream
 ```
 
-### Resolving Conflicts with rebase
+## Create a new frech branch
 
-When a conflict occures from rebase it will halt the operation and wait for you to resolve the conflicts. Once all conflicts are resolved use the following command sequence to resume rebasing:
+To create a new fresh branch from the original (upstream) master:
 
-```shell
-git add .
-git rebase --continue
+```
+git checkout upstream/master -b new-local-branch
 ```
 
 ## More Reading
