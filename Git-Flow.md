@@ -18,7 +18,7 @@ Following the [Github Flow][] paradigm, in short:
 
 ### DO NOT
 
-* DO NOT Squash your commits
+* [DO NOT Squash your commits](http://thanpol.as/javascript/Dont-Squash-its-rude-and-a-lie/)
 
 ## Keeping up with master
 
@@ -28,7 +28,15 @@ To keep up with the master of the original repo use `fetch`:
 git fetch upstream
 ```
 
-## Create a new frech branch
+### How to create the upstream remote
+
+The `upstream` remote refers to the repository that you want to send your Pull Request to. If you have write access on that repository then you don't need it. Otherwise you need to create it:
+
+```
+git remote add upstream [uri-of-repository]
+```
+
+## Create a new fresh branch
 
 To create a new fresh branch from the original (upstream) master:
 
