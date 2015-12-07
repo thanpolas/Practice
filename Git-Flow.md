@@ -14,7 +14,7 @@ Following the [Github Flow][] paradigm, in short:
 * Works on the branch doing [Atomic Commits](http://en.wikipedia.org/wiki/Atomic_commit).
 * Pushes to *origin* often.
 * When done performs a **Pull Request** to `upstream/master` or the target branch.
-  * If an issue exists (like in most cases) then they are expected to attach the Pull Request onto that issue using [HUB][], [here's how to do it](Advanced-Git-Cheatsheet#working-with-hub).
+  * If an issue exists (like in most cases) then they are expected to attach the Pull Request onto that issue using [HUB][], [here's how to do it](Advanced-Git-Cheatsheet.md#working-with-hub).
 
 ### DO NOT
 
