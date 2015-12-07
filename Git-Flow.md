@@ -14,7 +14,7 @@ Following the [Github Flow][] paradigm, in short:
 * Works on the branch doing [Atomic Commits](http://en.wikipedia.org/wiki/Atomic_commit).
 * Pushes to *origin* often.
 * When done performs a **Pull Request** to `upstream/master` or the target branch.
-  * If an issue exists (like in most cases) then they are expected to attach the Pull Request onto that issue using [HUB][], [here's how to do it](#working-with-hub).
+  * If an issue exists (like in most cases) then they are expected to attach the Pull Request onto that issue using [HUB][], [here's how to do it](Advanced-Git-Cheatsheet#working-with-hub).
 
 ### DO NOT
 
@@ -42,3 +42,5 @@ git checkout upstream/master -b new-local-branch
 * [Rolling back changes with revert](http://gitready.com/intermediate/2009/03/16/rolling-back-changes-with-revert.html)
 * [Gitmagic Git Complete Reference](http://www-cs-students.stanford.edu/~blynn/gitmagic/)
 
+[Github Flow]: http://scottchacon.com/2011/08/31/github-flow.html
+[HUB]: http://hub.github.com/
