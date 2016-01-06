@@ -33,6 +33,12 @@ darodar|pistonheads|motor|money|blackhat|backlink|webrank|seo|phd|
 crawler|anonymous|\\d{3}.*forum|porn|webmaster|flipboard|fl\\.ru|
 mbca|ahrefs|game|^sex|^video
 
+#### Referral Spam 2016
+
+An update for 2016
+
+> website-analyzer\.info|boost-my-site\.com|traffic2cash\.org|traffic2cash\.xyz|santasgift\.ml|o-o-8-o-o\.com|site-57390877-1\.snip\.tw
+
 
 ## More Reading
 
