@@ -14,15 +14,43 @@ The "Filter Pattern" accepts up to 255 characters so we have to break out the fi
 
 #### Referral Spam 1
 
-> trafficmonetizer\\.org|success-seo\\.com|webmonetizer\\.net|4webmasters\\.org|dailyrank\\.net|floating-share-buttons\\.com|social-buttons\\.com|simple-share-buttons\\.com|free-share-buttons\\.com|free-social-buttons\\.com|traffic2money\\.com|buttons-for-website\\.com
+> .\*(trafficmonetizer|4webmasters|webmonetizer|dailyrank)\\.(com|org|net|ml|tw|info|xyz|to|website|co|ru|ro|au|ua).\*
 
 #### Referral Spam 2
 
-> seo-platform\\.com|sexyali\\.com|get-free-social-traffic\\.com|qualitymarketzone\\.com|site4\\.free-floating-buttons\\.com|bundlepost\\.com|site7\\.free-floating-buttons\\.com|site8\\.free-floating-buttons\\.com|chinese-amezon\\.com|site1\\.free-floating-buttons\\.com
+> .\*(success\\-seo|floating\\-share\\-buttons|social\\-buttons|simple\\-share\\-buttons|free\\-share\\-buttons|free\\-social\\-buttons|traffic2money|buttons\\-for\\-website)\\.(com|org|net|ml|tw|info|xyz|to|website|co|ru|ro|au|ua).\*
 
 #### Referral Spam 3
 
-> www\\.event-tracking\\.com|www\\.Get-Free-Traffic-Now\\.com|site2\\.free-floating-buttons\\.com|videos-for-your-business\\.com|ranksonic\\.net|rankings-analytics\\.com|.*\\.copyrightclaims\\.org
+> .\*(seo-platform|sexyali|get\\-free\\-social\\-traffic|qualitymarketzone|free\\-floating\\-buttons|bundlepost|chinese\\-amezon)\\.(com|org|net|ml|tw|info|xyz|to|website|co|ru|ro|au|ua).\*
+
+#### Referral Spam 4
+
+> .\*(event\\-tracking|Get\\-Free\\-Traffic\\-Now|videos\\-for\\-your\\-business|ranksonic|rankings\\-analytics|copyrightclaims)\\.(com|org|net|ml|tw|info|xyz|to|website|co|ru|ro|au|ua).\*
+
+#### Referral Spam 5
+
+> .\*(googlemare|quit\\-smoking|trafficgenius|2your.site|for\\-your|yeartwit|годом)\\.(com|org|net|ml|tw|info|xyz|to|website|co|ru|ro|au|ua|рф).\*
+
+#### Referral Spam 6
+
+> .\*(semalt|buttons\\-for\\-your\\-website|best\\-seo\\-solution|best\\-seo\\-offer|100dollars\\-seo|semaltmedia|video--production)\\.(com|org|net|ml|tw|info|xyz|to|website|co|ru|ro|au|ua).\*
+
+#### Referral Spam 7
+
+> .\*(blackhatworth|7makemoneyonline|ilovevitaly|priceg|prodvigator|resellerclub|savetubevideo|screentoolkit|kambasoft|socialseet|superiends|vodkoved|iskalko|luxup|myftpupload|websocial|ykecwqlixx)\\.(com|org|net|ml|tw|info|xyz|to|website|co|ru|ro|au|ua).\*
+
+#### Referral Spam 8
+
+> .\*(slftsdybbg|seoexperimenty|darodar|econom|edakgfvwql|adcash|adviceforum|hulfingtonpost|europages|gobongo|cenoval|cityadspix|cenokos|lomb|lumb|srecorder|see\\-your\\-website\\-here|76brighton)\\.(com|org|net|ml|tw|info|xyz|to|website|co|ru|ro|au|ua).\*
+
+#### Referral Spam 9
+
+> .\*(anticrawler|medispainstitute|offers\\.bycontext|sitevaluation|paparazzistudios|powitania|sharebutton|tasteidea|descargar\\-musica\\-gratis|torontoplumbinggroup|54\\.186\\.60\\.77|ekatalog)\\.(com|org|net|ml|tw|info|xyz|to|website|co|ru|ro|au|ua).\*
+
+#### Referral Spam 10
+
+> .\*(rankscanner|sharemyfile|justprofit|127\\.0\\.0\\.1|search\\-helper|dbutton|o00|wordpress\\-crew|fast\\-wordpress\\-start|top1\\-seo\\-service|uptimechecker|uptimebot)\\.(com|org|net|ml|tw|info|xyz|to|website|co|ru|ro|au|ua).\*
 
 #### Referral Spam Catchall
 
@@ -37,7 +65,7 @@ mbca|ahrefs|game|^sex|^video
 
 An update for 2016
 
-> website-analyzer\.info|boost-my-site\.com|traffic2cash\.org|traffic2cash\.xyz|santasgift\.ml|o-o-8-o-o\.com|site-57390877-1\.snip\.tw
+> .\*(website\\-analyzer|boost\\-my\\-site|traffic2cash|santasgift|o\\-o\\-8\\-o\\-o|snip)\\.(com|org|net|ml|tw|info|xyz|to|website|co|ru|ro|au|ua).\*
 
 
 ## More Reading
