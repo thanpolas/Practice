@@ -28,4 +28,10 @@ You are now ready to perform `npm install` on the project
 
 > e:\app\node_modules\mdns\src\mdns.hpp(32): fatal error C1083: Cannot open include file: 'dns_sd.h': No such file or directory [E:\app\node_modules\mdns\build\dns_sd_bindings.vcxproj]
 
- To remedy this, download [Bonjour SDK for Windows](https://developer.apple.com/bonjour/).
+ To remedy this:
+
+ 1. Download and install [Bonjour SDK for Windows](https://developer.apple.com/bonjour/).
+ 2. Restart Windows
+
+ [Source](https://github.com/agnat/node_mdns/issues/147#issuecomment-189191526)
+ 
