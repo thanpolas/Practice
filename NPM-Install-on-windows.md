@@ -17,8 +17,8 @@ This information was current as of May 6th 2016.
     1. On the 'User variables' press the "New..." button
     1. Variable Name: `PYTHON` Value: `C:\python27\python.exe`
     1. Click "OK" all the way back.
-1. [--Install Visual C++ Build Tools 2015--](http://go.microsoft.com/fwlink/?LinkId=691132) - [Complete solution here](https://github.com/nodejs/node-gyp/issues/629#issuecomment-153196245)
-    * **Update 5/30/2016**: LOL, Microsoft devided to pull down the link to download the required runtime, hopefully I had a copy and uploaded on my personal store: http://than.pol.as/gJGq - hopefully I won't get sued by MS...
+1. Install Visual C++ Build Tools 2015 (link no longer exists) - [Complete solution here](https://github.com/nodejs/node-gyp/issues/629#issuecomment-153196245)
+    * **Update 5/30/2016**: LOL, Microsoft decided to pull down the link to download the required runtime, hopefully I had a copy and uploaded on my personal store: http://than.pol.as/gJGq - hopefully I won't get sued by MS...
     * **IMPORTANT** Choose "Custom Install", and **select both Windows 8.1 and Windows 10 SDKs**.
 1. Open CMD and type: `npm config set msvs_version 2015 --global`
 
