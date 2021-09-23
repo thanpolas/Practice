@@ -4,9 +4,7 @@ Tooling evolves, styling changes, languages come and go, but one thing remains c
 
 ## Decision Making Process and Code
 
-Every decision we make as engineers is a tradeoff. However, that does not mean we have to overstep on the engineering principles, and ofcourse, the outcome should have a reasoned justification. 
-
-Naturally, the particular contraints, environment, resources and goals are going to be the decisive factor, but there are underlying principles that should always be satisfied to achieve high code quality standards and engineering excellence.
+Every decision we make as engineers is a tradeoff. That does not mean however, that we have to compromise our engineering principles. Naturally, the particular contraints, environment, resources and goals are going to be the decisive factor, but there are underlying principles that should always be satisfied to achieve high code quality standards and engineering excellence.
 
 Decisions don't just happen on the high-level, like architecture or what particular technology to choose. They happen on each and every expression of our work. A newline that should be left between code blocks, a comment and what type should be made or not, when to line-break your code. All of these micro-decisions, draw the bigger picture that represents your coding discipline and reflects on the "quality" of your code and applications you work on.
 
