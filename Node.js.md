@@ -10,21 +10,34 @@ To achieve codebase uniformity and homogeneity a certain set of rules must be ag
 
 ## <a name='TOC'>Table of Contents</a>
 
+  1. [Formatting](#formatting)
   1. [Document Blocks](#docblocks)
   1. [Module Dependencies](#modules)
   1. [Module Format](#format)
-  1. [Optimizations](#optimizations)
-  1. [git dependencies](#git)
+
+## <a name='formatting'>Formatting</a>
+
+Thanks to recent developments in tooling, we no longer have to argue about formatting on node.js (or any javascript) project. The only thing you have to do is have the [prettier](https://prettier.io/) package installed on your editor.
+
+As, at this time (2021) the most popular editor is Visual Studio Code, to enable auto-formatting on save, you have to create the file `.vscode/settings.json` with the contents:
+
+```json
+{
+    "editor.formatOnSave": true,
+}
+```
+
+**[[⬆]](#TOC)**
 
 ## <a name='docblocks'>Document Blocks</a>
 
-Every method, function, property should be documented with JSDoc Tags. The [Google's Closure Compiler Annotation][gdocs] is used. The main reason being the richness of expression for describing complex data structures and creating primitives.
+Every method, function, property should be documented with [JSDoc Tags][jsdoc].
 
 ```js
 /**
  * Helper for default value of date types.
  *
- * @param  {number} plusTime
+ * @param  {number} plusTime The time to add in miliseconds.
  * @return {number} The JS timestamp the future.
  */
 orm.defaultDate = function(plusTime) {
@@ -36,25 +49,25 @@ orm.defaultDate = function(plusTime) {
 
 ## <a name='modules'>Module Dependencies</a>
 
-For the Node environment the following format of requiring modules is advised:
+For the Node environment the following order of requiring modules is advised:
 
-  1. Require all core modules
-  1. Require all packages
-  1. Require all local modules
+1. Require all core modules
+1. Require all packages
+1. Require all local modules
 
 Each separated by a new line and if possible order by lower to higher level in the stack.
 
 ```js
 // core modules
-var util = require('util');
+const util = require('util');
 
 // packages
-var __ = require('lodash'); // use double underscore for lodash
-var Promise = require('bluebird'); // lodash is lower in the stack than promises
-var express = require('express');
+const __ = require('lodash'); // use double underscore for lodash
+const Promise = require('bluebird'); // lodash is lower in the stack than promises
+const express = require('express');
 
 // local modules
-var userCtrl = require('./controllers/user.ctrl');
+const userCtrl = require('./controllers/user.ctrl');
 ```
 
 > **Important**: All module dependencies must be declared on the top of the file, no exceptions.
@@ -65,13 +78,11 @@ var userCtrl = require('./controllers/user.ctrl');
 
 ### General Layout
 
-These rules only apply to Node modules. Each module should have the following structure:
+Each Node.js module should have the following structure:
 
-Lines must not exceed 80 columns in any file. Exceptions are markdown and markup files.
-
-1. The `@fileOverview` tag with a general description about what this module is about.
+1. Lines must not exceed 80 columns. Exceptions are markdown and markup files.
+1. The `@fileoverview` tag at the top of the module, with a general description about what this module is about.
 1. The module dependencies as described in [Module Dependencies](#modules).
-1. Declare anything that is local to the module.
 1. Use only `module.exports` as a way of exporting, before any code. Beyond this point everything is attached to the exported object.
 1. Declare all static properties, functions, constants or enums right after the export statement.
 1. Declare all public / exported methods
@@ -83,33 +94,24 @@ Even *private* methods are defined on the exported object.
 /**
  * @fileOverview The user Model.
  */
-var util = require('util');
 
-var __ = require('lodash');
-var config = require('config');
-var log = require('logg').getLogger('app.model.User');
+const util = require('util');
 
-var ModelMongo = require('./model-mongo');
-var helpers = require('../util/helpers');
+const __ = require('lodash');
+const config = require('config');
+const log = require('logg').getLogger('app.model.User');
 
-/**
- * The base user model.
- *
- * @constructor
- * @extends {app.ModelMongo}
- */
-var User = module.exports = function(){
-  ModelMongo.apply(this, arguments);
-};
-util.inherits(User, ModelMongo);
-helpers.addSingletonGetter(User);
+const ModelMongo = require('./model-mongo');
+const helpers = require('../util/helpers');
+
+const user = (module.exports = {});
 
 /**
  * The supported user roles.
  *
  * @enum {number}
  */
-User.Role = {
+user.Role = {
   API: 1,
   ADMIN: 2,
 };
@@ -117,69 +119,13 @@ User.Role = {
 /**
  * Pre-validation middleware. Set any default values.
  *
- * @param  {Function(Error)} next callback
- * @private
- * @this {mongoose.Schema} Mongoose context.
- */
-User.prototype._setDefaultValues = function(next){
-  next();
-};
-
-/**
- * Pre-Save password filter, will one-way encrypt the value.
- *
- * @param  {Function(Error=)} next Callback.
- * @this {mongoose.Schema} Mongoose context.
+ * @param  {function<Error>} next callback
  * @private
  */
-User.prototype._hashPassword = function(next) {
+user._setDefaultValues = (next) => {
   next();
 };
 ```
 **[[⬆]](#TOC)**
 
-## <a name='optimizations'>Optimizations</a>
-
-Random snippets of best practices and performance gains.
-
-#### Do not use .bind()
-
-[Bind's implementation is slow][bind slow], until V8 gets passed that issue use closures:
-
-```js
-
-app.add = function(a, b) {
-
-  // bad
-  asyncFn(function() {
-    this.a = a;
-  }.bind(this));
-
-  // good
-  var self = this;
-  asyncFn(function() {
-    self.a = a;
-  });  
-
-};
-```
-
-#### Use .bind()
-
-You can use `.bind()` during application boot-time for binding methods. Boot-time occurs only once so the performance hit by de-optimized methods and practices is non consequential.
-
-[gdocs]: https://developers.google.com/closure/compiler/docs/js-for-compiler?hl=en#tags
-[bind slow]: http://stackoverflow.com/questions/17638305/why-is-bind-slower-than-a-closure/17638540#17638540
-
-
-**[[⬆]](#TOC)**
-
-## <a name='git'>Git Dependencies</a>
-
-### Require a public repository
-
-```
-npm install https://github.com/username/repository/tarball/branch-name --save
-```
-
-**[[⬆]](#TOC)**
+[jsdoc]: https://jsdoc.app/
