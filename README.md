@@ -2,12 +2,17 @@
 
 A collection of best practices and cheat sheets.
 
+## Best Practices
+
+* [Principles of Code Quality](principles-of-code-quality.md).
+* [Node.js](Node.js.md)
+
+
+## Cheat Sheets
+
 * [Github Flow](Git-Flow.md)
 * [Advanced Git Cheatsheet](Advanced-Git-Cheatsheet.md)
 * [Markdown Cheatsheet](Markdown-Cheatsheet.md)
-* [Javascript Style Guide](Javascript-Style-Guide.md)
-* [Node.js](Node.js.md)
-    * [Default `.jshintrc` file](.jshintrc)
 * [Heroku Node.js Hands On](Heroku-Handson.md)
 * [Google Speadsheets](Google-Spreadsheets.md)
 * [Unix Screen Cheatsheet](unix-screen-cheatsheet.md)
