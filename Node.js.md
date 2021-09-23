@@ -2,12 +2,6 @@
 
 This is a collection of best practices, cheats and tips for doing safe sex with node.js, enjoy!
 
-## Maintainability 
-
-Maintainability comes out of a uniform and homogeneous codebase. The fact that multiple developers are expected to read and understand existing code must always be the top and foremost priority when authoring code. After all, we write code for the purpose of reading it.
-
-To achieve codebase uniformity and homogeneity a certain set of rules must be agreed upon and honored by all authors. This document is about these rules. When applied properly, the whole codebase should look like it was authored by a single person.
-
 ## <a name='TOC'>Table of Contents</a>
 
   1. [Formatting](#formatting)
