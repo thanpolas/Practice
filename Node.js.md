@@ -21,7 +21,7 @@ As, at this time (2021) the most popular editor is Visual Studio Code, to enable
 }
 ```
 
-**[[⬆]](#TOC)**
+**[⬆](#TOC)**
 
 ## <a name='docblocks'>Document Blocks</a>
 
@@ -39,7 +39,7 @@ orm.defaultDate = function(plusTime) {
 };
 ```
 
-**[[⬆]](#TOC)**
+**[⬆](#TOC)**
 
 ## <a name='modules'>Module Dependencies</a>
 
@@ -66,7 +66,7 @@ const userCtrl = require('./controllers/user.ctrl');
 
 > **Important**: All module dependencies must be declared on the top of the file, no exceptions.
 
-**[[⬆]](#TOC)**
+**[⬆](#TOC)**
 
 ## <a name='format'>Module Format</a>
 
@@ -120,6 +120,6 @@ user._setDefaultValues = (next) => {
   next();
 };
 ```
-**[[⬆]](#TOC)**
+**[⬆](#TOC)**
 
 [jsdoc]: https://jsdoc.app/

@@ -36,7 +36,7 @@ You can play around with Markdown on the [live demo page](http://www.markdown-he
 
 body
 
-**[[⬆]](#TOC)**
+**[⬆](#TOC)**
 ```
 
 Lots going on here, as you notice we use the Anchor HTML element `a` for the header names, the `name` attribute is what we are going to use internally to create links inside the document. `<a name="tocs">` Once this is defined we can then create a link to point to that anchor using just the pount key like so: `[Go to TOCS](#tocs)`.
@@ -75,7 +75,31 @@ Alt-H1
 Alt-H2
 ------
 
-**[[⬆]](#TOC)**
+**[⬆](#TOC)**
+
+## <a name="collapse">Collapsible Sections</a>
+
+<details>
+  <summary><span style="font-size: 1.5em;">You can create collapsible sections [click me].</span></summary>
+
+<br />
+
+Hello 👋.
+</details>
+
+Here is how:
+
+```md
+<details>
+  <summary><span style="font-size: 1.5em;">You can create collapsible sections [click me].</span></summary>
+
+<br />
+
+Hello 👋.
+</details>
+
+```
+
 
 ## <a name="emphasis">Emphasis</a>
 
@@ -97,7 +121,7 @@ Combined emphasis with **asterisks and _underscores_**.
 
 Strikethrough uses two tildes. ~~Scratch this.~~
 
-**[[⬆]](#TOC)**
+**[⬆](#TOC)**
 
 ## <a name="lists">Lists</a>
 
@@ -139,7 +163,7 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 - Or minuses
 + Or pluses
 
-**[[⬆]](#TOC)**
+**[⬆](#TOC)**
 
 ## <a name="links">Links</a>
 
@@ -208,7 +232,7 @@ Reference-style:
 
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
-**[[⬆]](#TOC)**
+**[⬆](#TOC)**
 
 ## <a name="code">Code and Syntax Highlighting</a>
 
@@ -255,7 +279,7 @@ No language indicated, so no syntax highlighting in Markdown Here (varies on Git
 But let's throw in a <b>tag</b>.
 ```
 
-**[[⬆]](#TOC)**
+**[⬆](#TOC)**
 
 ## <a name="tables">Tables</a>
 
@@ -293,7 +317,7 @@ Markdown | Less | Pretty
 *Still* | `renders` | **nicely**
 1 | 2 | 3
 
-**[[⬆]](#TOC)**
+**[⬆](#TOC)**
 
 ## <a name="blockquotes">Blockquotes</a>
 
@@ -313,7 +337,7 @@ Quote break.
 
 > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
 
-**[[⬆]](#TOC)**
+**[⬆](#TOC)**
 
 ## <a name="html">Inline HTML</a>
 
@@ -337,7 +361,7 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
   <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
 
-**[[⬆]](#TOC)**
+**[⬆](#TOC)**
 
 ## <a name="hr">Horizontal Rule</a>
 
@@ -371,7 +395,7 @@ ___
 
 Underscores
 
-**[[⬆]](#TOC)**
+**[⬆](#TOC)**
 
 ## <a name="lines">Line Breaks</a>
 
@@ -397,7 +421,7 @@ This line is only separated by a single newline, so it's a separate line in the 
 
 (Technical note: *Markdown Here* uses GFM line breaks, so there's no need to use MD's two-space line breaks.)
 
-**[[⬆]](#TOC)**
+**[⬆](#TOC)**
 
 ## <a name="videos">Youtube videos</a>
 
@@ -415,4 +439,4 @@ Or, in pure Markdown, but losing the image sizing and border:
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 ```
 
-**[[⬆]](#TOC)**
+**[⬆](#TOC)**
