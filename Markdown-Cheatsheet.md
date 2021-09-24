@@ -10,6 +10,7 @@ You can play around with Markdown on the [live demo page](http://www.markdown-he
 
 1. [Creating Table of Contents](#tocs)
 1. [Headers](#headers)
+1. [Collapsible Sections](#collapse)
 1. [Emphasis](#emphasis)
 1. [Lists](#lists)
 1. [Links](#links)
@@ -100,6 +101,7 @@ Hello 👋.
 
 ```
 
+**[⬆](#TOC)**
 
 ## <a name="emphasis">Emphasis</a>
 
