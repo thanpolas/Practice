@@ -34,7 +34,7 @@ Every method, function, property should be documented with [JSDoc Tags][jsdoc].
  * @param  {number} plusTime The time to add in miliseconds.
  * @return {number} The JS timestamp the future.
  */
-orm.defaultDate = function(plusTime) {
+exports.defaultDate = function(plusTime) {
   return Date.now() + plusTime;
 };
 ```
@@ -98,14 +98,12 @@ const log = require('logg').getLogger('app.model.User');
 const ModelMongo = require('./model-mongo');
 const helpers = require('../util/helpers');
 
-const user = (module.exports = {});
-
 /**
  * The supported user roles.
  *
  * @enum {number}
  */
-user.Role = {
+exports.Role = {
   API: 1,
   ADMIN: 2,
 };
@@ -116,7 +114,7 @@ user.Role = {
  * @param  {function<Error>} next callback
  * @private
  */
-user._setDefaultValues = (next) => {
+exports._setDefaultValues = (next) => {
   next();
 };
 ```
