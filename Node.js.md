@@ -77,7 +77,7 @@ Each Node.js module should have the following structure:
 1. Lines must not exceed 80 columns. Exceptions are markdown and markup files.
 1. The `@fileoverview` tag at the top of the module, with a general description about what this module is about.
 1. The module dependencies as described in [Module Dependencies](#modules).
-1. Use only `module.exports` as a way of exporting, before any code. Beyond this point everything is attached to the exported object.
+1. Use only `exports.property` as a way of exporting.
 1. Declare all static properties, functions, constants or enums right after the export statement.
 1. Declare all public / exported methods
 1. Declare all private methods
